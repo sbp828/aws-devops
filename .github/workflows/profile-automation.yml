@@ -10,8 +10,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout automation repo
+      - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          persist-credentials: false  # Important! prevents GH token override
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -20,11 +22,9 @@ jobs:
 
       - name: Install dependencies
         run: |
-          if [ -f requirements.txt ]; then
-            pip install -r requirements.txt
-          fi
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
-      - name: Run automation engine and push with PAT
+      - name: Run automation and push using PAT
         env:
           REPO_TOKEN: ${{ secrets.REPO_TOKEN }}
         run: |
