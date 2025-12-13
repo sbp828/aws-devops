@@ -8,53 +8,99 @@ import json
 from pathlib import Path
 from datetime import datetime, timezone
 
-BASE = Path(__file__).parent
-OUTPUT = BASE / "aws-devops"
-STATE_FILE = BASE / "data/state/progress.json"
-ROADMAP_FILE = BASE / "data/roadmap/roadmap.json"
+BASE_DIR = Path(__file__).parent
+CONTENT_DIR = BASE_DIR / "aws-devops"
+ROADMAP_PATHS = [
+    BASE_DIR / "data" / "roadmap" / "roadmap.json",
+    BASE_DIR / "aws-devops" / "roadmap.json"
+]
+STATE_FILE = BASE_DIR / ".state.json"
 
-def load_json(path):
-    with open(path) as f:
-        return json.load(f)
 
-def save_text(path, content):
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(content)
+def load_roadmap():
+    for path in ROADMAP_PATHS:
+        if path.exists():
+            with open(path) as f:
+                return json.load(f)
+    raise FileNotFoundError("roadmap.json not found in aws-devops/ or data/")
+
 
 def load_state():
-    if not STATE_FILE.exists():
-        return {"current_day": 0}
-    return json.loads(STATE_FILE.read_text())
+    if STATE_FILE.exists():
+        return json.loads(STATE_FILE.read_text())
+    return {"index": 0}
+
 
 def save_state(state):
     STATE_FILE.write_text(json.dumps(state, indent=2))
 
-def generate_topic(day_number, topic_name):
-    folder_name = f"{day_number:02d}-{topic_name.split()[0].lower()}"
-    topic_folder = OUTPUT / folder_name
-    topic_folder.mkdir(parents=True, exist_ok=True)
 
-    save_text(topic_folder / "01-notes.md", f"# {topic_name}\nGenerated: {datetime.now(timezone.utc).isoformat()} UTC\nNotes placeholder")
-    save_text(topic_folder / "02-commands.md", f"# {topic_name} Commands\n- command1\n- command2\n- command3")
-    save_text(topic_folder / "03-poc.md", f"# PoC for {topic_name}\n- Step 1\n- Step 2\n- Step 3")
+def detect_category(topic: str) -> str:
+    t = topic.lower()
+    if t.startswith("linux"):
+        return "linux"
+    if t.startswith("aws"):
+        return "aws"
+    if t.startswith("docker"):
+        return "docker"
+    if t.startswith("kubernetes"):
+        return "kubernetes"
+    if t.startswith("terraform"):
+        return "terraform"
+    if "ci cd" in t or "github actions" in t or "jenkins" in t:
+        return "cicd"
+    return "misc"
 
-    print(f"[OK] Topic generated: {folder_name}")
+
+def append_section(file_path: Path, topic: str, content: str):
+    with open(file_path, "a") as f:
+        f.write(f"\n\n## {topic}\n")
+        f.write(content.strip() + "\n")
+
 
 def main():
-    roadmap = load_json(ROADMAP_FILE)
+    roadmap = load_roadmap()
     state = load_state()
-    current_day = state.get("current_day", 0)
 
-    if current_day >= len(roadmap):
-        print("[INFO] All topics already generated!")
+    if state["index"] >= len(roadmap):
+        print("[OK] All topics processed successfully!")
         return
 
-    topic_name = roadmap[current_day]
-    generate_topic(current_day + 1, topic_name)
+    topic = roadmap[state["index"]]
+    category = detect_category(topic)
 
-    state["current_day"] = current_day + 1
-    state["last_run"] = datetime.now(timezone.utc).isoformat()
+    category_dir = CONTENT_DIR / category
+    category_dir.mkdir(parents=True, exist_ok=True)
+
+    notes = category_dir / "notes.md"
+    commands = category_dir / "commands.md"
+    poc = category_dir / "poc.md"
+
+    timestamp = datetime.now(timezone.utc).isoformat()
+
+    append_section(
+        notes,
+        topic,
+        f"- Learned concepts related to **{topic}**\n- Study timestamp: {timestamp}"
+    )
+
+    append_section(
+        commands,
+        topic,
+        f"- Example commands for **{topic}**\n- (Add real commands here later)"
+    )
+
+    append_section(
+        poc,
+        topic,
+        f"- Proof of concept ideas for **{topic}**\n- (Scripts / configs later)"
+    )
+
+    state["index"] += 1
     save_state(state)
+
+    print(f"[OK] Topic {state['index']}: {topic} → {category}/")
+
 
 if __name__ == "__main__":
     main()
