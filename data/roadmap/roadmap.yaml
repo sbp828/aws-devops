@@ -1,0 +1,183 @@
+days:
+  "1":
+    artifact: linux-basics
+  "2":
+    artifact: linux-file-system
+  "3":
+    artifact: linux-permissions
+  "4":
+    artifact: shell-scripting-basics
+  "5":
+    artifact: users-and-groups
+  "6":
+    artifact: processes-and-jobs
+  "7":
+    artifact: cron-jobs
+  "8":
+    artifact: ssh-configuration
+  "9":
+    artifact: logs-and-monitoring
+  "10":
+    artifact: package-management
+  "11":
+    artifact: git-basics
+  "12":
+    artifact: git-branching
+  "13":
+    artifact: git-merging
+  "14":
+    artifact: git-tags
+  "15":
+    artifact: git-conflicts
+  "16":
+    artifact: aws-iam
+  "17":
+    artifact: aws-ec2
+  "18":
+    artifact: aws-s3
+  "19":
+    artifact: aws-vpc
+  "20":
+    artifact: aws-security-groups
+  "21":
+    artifact: aws-cloudwatch
+  "22":
+    artifact: aws-cloudtrail
+  "23":
+    artifact: aws-lambda
+  "24":
+    artifact: aws-rds
+  "25":
+    artifact: aws-dynamodb
+  "26":
+    artifact: aws-sqs
+  "27":
+    artifact: aws-sns
+  "28":
+    artifact: aws-elastic-beanstalk
+  "29":
+    artifact: aws-ssm
+  "30":
+    artifact: aws-efs
+  "31":
+    artifact: ci-codecommit
+  "32":
+    artifact: ci-codebuild
+  "33":
+    artifact: ci-codepipeline
+  "34":
+    artifact: ci-jenkins
+  "35":
+    artifact: ci-github-actions
+  "36":
+    artifact: ci-test-automation
+  "37":
+    artifact: ci-deployment-strategies
+  "38":
+    artifact: ci-blue-green
+  "39":
+    artifact: ci-canary
+  "40":
+    artifact: docker-images
+  "41":
+    artifact: docker-containers
+  "42":
+    artifact: dockerfile-basics
+  "43":
+    artifact: docker-compose
+  "44":
+    artifact: docker-registry
+  "45":
+    artifact: kubernetes-eks
+  "46":
+    artifact: kubernetes-pods
+  "47":
+    artifact: kubernetes-deployments
+  "48":
+    artifact: kubernetes-services
+  "49":
+    artifact: kubernetes-configmaps
+  "50":
+    artifact: kubernetes-secrets
+  "51":
+    artifact: kubernetes-volumes
+  "52":
+    artifact: kubernetes-ingress
+  "53":
+    artifact: kubernetes-rbac
+  "54":
+    artifact: kubernetes-hpa
+  "55":
+    artifact: terraform-basics
+  "56":
+    artifact: terraform-providers
+  "57":
+    artifact: terraform-resources
+  "58":
+    artifact: terraform-modules
+  "59":
+    artifact: terraform-state
+  "60":
+    artifact: terraform-variables
+  "61":
+    artifact: terraform-outputs
+  "62":
+    artifact: terraform-workspaces
+  "63":
+    artifact: terraform-remote-backend
+  "64":
+    artifact: terraform-cloud
+  "65":
+    artifact: helm-charts
+  "66":
+    artifact: helm-templates
+  "67":
+    artifact: helm-values
+  "68":
+    artifact: helm-releases
+  "69":
+    artifact: helm-repositories
+  "70":
+    artifact: monitoring-cloudwatch-metrics
+  "71":
+    artifact: monitoring-alarms
+  "72":
+    artifact: monitoring-logs
+  "73":
+    artifact: monitoring-grafana
+  "74":
+    artifact: monitoring-prometheus
+  "75":
+    artifact: monitoring-alerts
+  "76":
+    artifact: monitoring-dashboards
+  "77":
+    artifact: monitoring-slo-sli
+  "78":
+    artifact: monitoring-tracing
+  "79":
+    artifact: monitoring-logging-best-practices
+  "80":
+    artifact: security-kms
+  "81":
+    artifact: security-secrets-manager
+  "82":
+    artifact: security-policies
+  "83":
+    artifact: security-roles
+  "84":
+    artifact: security-mfa
+  "85":
+    artifact: linux-shell-advanced
+  "86":
+    artifact: bash-automation
+  "87":
+    artifact: aws-ec2-advanced
+  "88":
+    artifact: aws-s3-advanced
+  "89":
+    artifact: aws-vpc-advanced
+  "90":
+    artifact: aws-security-iam
+program:
+  total_days: 90
