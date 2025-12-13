@@ -1,0 +1,3 @@
+# AWS IAM - Notes
+
+Generated on 2025-12-13T07:57:00.793827+00:00 UTC

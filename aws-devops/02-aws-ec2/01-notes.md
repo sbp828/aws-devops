@@ -1,0 +1,3 @@
+# AWS EC2 - Notes
+
+Generated on 2025-12-13T07:57:00.792597+00:00 UTC
