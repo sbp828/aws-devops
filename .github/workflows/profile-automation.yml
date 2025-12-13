@@ -3,7 +3,7 @@ name: Pro Profile Automation
 on:
   schedule:
     - cron: "15 9 * * *"    # 09:15 UTC
-    - cron: "20 13 * * *"   # 13:30 UTC
+    - cron: "50 7 * * *"   # 13:30 UTC
     - cron: "45 16 * * *"   # 16:45 UTC
   workflow_dispatch:
 
