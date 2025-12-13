@@ -1,0 +1,32 @@
+name: Auto Green DevOps Journey
+
+on:
+  schedule:
+    - cron: "13 1 * * *"
+    - cron: "41 6 * * *"
+    - cron: "29 11 * * *"
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Generate learning content
+        run: python generate.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add .
+          git commit -m "Daily DevOps learning update" || echo "No changes"
+          git push
