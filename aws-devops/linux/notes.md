@@ -8,3 +8,8 @@
 ## Linux File System
 - Learned concepts related to **Linux File System**
 - Study timestamp: 2025-12-13T11:42:46.141911+00:00
+
+
+## Linux Permissions
+- Learned concepts related to **Linux Permissions**
+- Study timestamp: 2025-12-13T13:45:35.351259+00:00
