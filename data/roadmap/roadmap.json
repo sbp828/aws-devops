@@ -1,0 +1,22 @@
+[
+  "Linux",
+  "AWS EC2",
+  "AWS IAM",
+  "AWS VPC",
+  "AWS S3",
+  "AWS RDS",
+  "AWS Load Balancer",
+  "CI CD Basics",
+  "GitHub Actions",
+  "Jenkins Basics",
+  "Docker",
+  "Docker Images",
+  "Docker Compose",
+  "Kubernetes Basics",
+  "Pods and Deployments",
+  "Services and Ingress",
+  "Terraform Basics",
+  "Terraform AWS",
+  "Monitoring with CloudWatch",
+  "Security Best Practices"
+]

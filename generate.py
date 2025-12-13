@@ -1,81 +1,71 @@
 #!/usr/bin/env python3
 """
-generate.py — Idempotent AWS DevOps Topic Generator (timezone-aware)
+generate.py — AWS DevOps Roadmap Automation
 """
 
-import yaml
 import json
 from pathlib import Path
 from datetime import datetime, timezone
 
 # ---------- PATHS ----------
 BASE = Path(__file__).parent
-DATA = BASE / "data"
 OUTPUT = BASE / "aws-devops"
-STATE_FILE = DATA / "state/progress.json"
-ROADMAP_FILE = DATA / "roadmap/roadmap.yaml"
+STATE_FILE = BASE / "data/state/progress.json"
+ROADMAP_FILE = BASE / "data/roadmap/roadmap.json"
 
 # ---------- UTILS ----------
-def load_yaml(path):
+def load_json(path):
     with open(path) as f:
-        return yaml.safe_load(f)
+        return json.load(f)
 
 def save_text(path, content):
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(content)
 
-# ---------- STATE ----------
 def load_state():
     if not STATE_FILE.exists():
-        return {"last_topic_index": 0, "last_run": None}
+        return {"current_day": 0}
     return json.loads(STATE_FILE.read_text())
 
 def save_state(state):
-    STATE_FILE.parent.mkdir(parents=True, exist_ok=True)
     STATE_FILE.write_text(json.dumps(state, indent=2))
 
 # ---------- CORE ----------
-def generate_topic(day_cfg, topic_index):
-    artifact = day_cfg["artifact"]
-    md_path = OUTPUT / f"{topic_index+1:02d}-{artifact}.md"
-    
-    if md_path.exists():
-        print(f"[INFO] Topic already exists: {md_path.name}, skipping...")
-        return False
-    
-    timestamp = datetime.now(timezone.utc).isoformat()  # ✅ timezone-aware
-    content = f"""# Topic {topic_index+1}: {artifact}
+def generate_topic(day_number, topic_name):
+    # Folder name: 01-linux, 02-aws, etc. (first word of topic)
+    folder_name = f"{day_number:02d}-{topic_name.split()[0].lower()}"
+    topic_folder = OUTPUT / folder_name
+    topic_folder.mkdir(parents=True, exist_ok=True)
 
-Generated on {timestamp} UTC
+    # 3 files inside folder
+    notes_content = f"# {topic_name}\nGenerated on {datetime.now(timezone.utc).isoformat()} UTC\n\nNotes placeholder"
+    commands_content = f"# {topic_name} Commands\n- command1\n- command2\n- command3"
+    poc_content = f"# PoC for {topic_name}\n- Step 1\n- Step 2\n- Step 3"
 
-## Notes
-- Placeholder notes for {artifact}
-- Add commands, context, and key learnings here
-"""
-    save_text(md_path, content)
-    print(f"[OK] Topic generated: {md_path.name}")
-    return True
+    save_text(topic_folder / "01-notes.md", notes_content)
+    save_text(topic_folder / "02-commands.md", commands_content)
+    save_text(topic_folder / "03-poc.md", poc_content)
+
+    print(f"[OK] Topic generated: {folder_name}")
 
 # ---------- ENGINE ----------
 def main():
-    roadmap = load_yaml(ROADMAP_FILE)["days"]
-    total_topics = len(roadmap)
-    
+    roadmap = load_json(ROADMAP_FILE)
     state = load_state()
-    idx = state.get("last_topic_index", 0)
-    
-    if idx >= total_topics:
-        print("[INFO] All topics completed.")
+    current_day = state.get("current_day", 0)
+
+    if current_day >= len(roadmap):
+        print("[INFO] All topics already generated!")
         return
-    
-    day_cfg = roadmap[str(idx + 1)]
-    
-    generated = generate_topic(day_cfg, idx)
-    
-    if generated:
-        state["last_topic_index"] = idx + 1
-        state["last_run"] = datetime.now(timezone.utc).isoformat()  # ✅ timezone-aware
-        save_state(state)
+
+    # Generate topic
+    topic_name = roadmap[current_day]
+    generate_topic(current_day + 1, topic_name)
+
+    # Update state
+    state["current_day"] = current_day + 1
+    state["last_run"] = datetime.now(timezone.utc).isoformat()
+    save_state(state)
 
 if __name__ == "__main__":
     main()
