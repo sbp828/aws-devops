@@ -1,72 +1,88 @@
-#!/usr/bin/env python3
-import os
 import json
+import os
 from datetime import datetime, timezone
 
-# Paths
-ROADMAP_FILE = "data/roadmap/roadmap.json"
-STATE_FILE = "data/state/progress.json"
-OUTPUT_DIR = "aws-devops"
+BASE_DIR = "aws-devops"
+STATE_FILE = ".state.json"
 
-# Ensure output directories exist
-os.makedirs(OUTPUT_DIR, exist_ok=True)
-os.makedirs(os.path.dirname(STATE_FILE), exist_ok=True)
+ROADMAP_PATHS = [
+    "aws-devops/roadmap.json",
+    "data/roadmap.json"
+]
 
-# Load roadmap JSON
-def load_json(path):
-    with open(path) as f:
-        return json.load(f)
+FILES = ["notes.md", "commands.md", "poc.md"]
 
-# Load progress state
-def load_state(path):
-    if os.path.exists(path):
-        with open(path) as f:
+
+def load_roadmap():
+    for path in ROADMAP_PATHS:
+        if os.path.exists(path):
+            with open(path) as f:
+                return json.load(f)
+    raise FileNotFoundError("roadmap.json not found in aws-devops/ or data/")
+
+
+def load_state():
+    if os.path.exists(STATE_FILE):
+        with open(STATE_FILE) as f:
             return json.load(f)
-    return {}
+    return {"current_index": 0}
 
-# Save progress state
-def save_state(path, state):
-    with open(path, "w") as f:
+
+def save_state(state):
+    with open(STATE_FILE, "w") as f:
         json.dump(state, f, indent=2)
 
-# Generate topic files
-def generate_topic_files(topic_name, category_folder):
-    os.makedirs(category_folder, exist_ok=True)
-    base_name = topic_name.lower().replace(" ", "-")
-    filenames = [
-        f"{base_name}-notes.md",
-        f"{base_name}-commands.md",
-        f"{base_name}-poc.md"
-    ]
-    for filename in filenames:
-        filepath = os.path.join(category_folder, filename)
-        if not os.path.exists(filepath):
-            with open(filepath, "w") as f:
-                f.write(f"# {topic_name}\nGenerated on {datetime.now(timezone.utc).isoformat()} UTC\n")
-    return filenames
+
+def detect_category(topic: str) -> str:
+    t = topic.lower().strip()
+
+    if t.startswith("linux"):
+        return "linux"
+    if t.startswith("aws"):
+        return "aws"
+    if t.startswith("docker"):
+        return "docker"
+    if t.startswith("kubernetes") or t.startswith("k8s"):
+        return "kubernetes"
+    if t.startswith("terraform"):
+        return "terraform"
+    if t.startswith("ci") or t.startswith("jenkins") or t.startswith("github"):
+        return "cicd"
+
+    return "misc"
+
+
+def update_files(folder, topic):
+    os.makedirs(folder, exist_ok=True)
+    timestamp = datetime.now(timezone.utc).isoformat()
+
+    for file in FILES:
+        path = os.path.join(folder, file)
+        with open(path, "a") as f:
+            f.write(f"\n## {topic}\n")
+            f.write(f"- Updated at: {timestamp}\n")
+
 
 def main():
-    roadmap = load_json(ROADMAP_FILE)
-    state = load_state(STATE_FILE)
+    roadmap = load_roadmap()
+    state = load_state()
 
-    for idx, topic in enumerate(roadmap, 1):
-        # Determine category (first word)
-        category = topic.split()[0].lower()
-        category_folder = os.path.join(OUTPUT_DIR, f"{idx:02d}-{category}")
+    index = state["current_index"]
+    if index >= len(roadmap):
+        print("[INFO] Roadmap completed")
+        return
 
-        # Generate files inside category folder
-        files_created = generate_topic_files(topic, category_folder)
-        print(f"[OK] Topic generated: {topic} in {category_folder}")
+    topic = roadmap[index]
+    category = detect_category(topic)
 
-        # Update state
-        state[topic] = {
-            "folder": category_folder,
-            "files": files_created,
-            "timestamp": datetime.now(timezone.utc).isoformat()
-        }
+    folder = os.path.join(BASE_DIR, category)
+    update_files(folder, topic)
 
-    save_state(STATE_FILE, state)
-    print("[OK] All topics processed successfully!")
+    print(f"[OK] Topic {index + 1}: {topic} → {category}/")
+
+    state["current_index"] += 1
+    save_state(state)
+
 
 if __name__ == "__main__":
     main()
