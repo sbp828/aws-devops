@@ -5,54 +5,65 @@ from datetime import datetime, timezone
 
 # Paths
 ROADMAP_FILE = "data/roadmap/roadmap.json"
-OUTPUT_DIR = "aws-devops"
 STATE_FILE = "data/state/progress.json"
+OUTPUT_DIR = "aws-devops"
+
+# Ensure output directories exist
+os.makedirs(OUTPUT_DIR, exist_ok=True)
+os.makedirs(os.path.dirname(STATE_FILE), exist_ok=True)
 
 # Load roadmap JSON
 def load_json(path):
     with open(path) as f:
         return json.load(f)
 
-# Load state (last run info)
+# Load progress state
 def load_state(path):
-    if not os.path.exists(path):
-        return {}
-    with open(path) as f:
-        return json.load(f)
+    if os.path.exists(path):
+        with open(path) as f:
+            return json.load(f)
+    return {}
 
-# Save state
+# Save progress state
 def save_state(path, state):
-    os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, "w") as f:
         json.dump(state, f, indent=2)
 
-# Generate files for a topic
-def generate_topic(topic_number, topic_name, state):
-    folder_name = f"{str(topic_number).zfill(2)}-{topic_name.lower().replace(' ', '-')}"
-    folder_path = os.path.join(OUTPUT_DIR, folder_name)
-    os.makedirs(folder_path, exist_ok=True)
-
-    files = ["notes.md", "commands.md", "poc.md"]
-
-    for i, filename in enumerate(files, start=1):
-        file_path = os.path.join(folder_path, f"{str(i).zfill(2)}-{filename}")
-        if not os.path.exists(file_path):
-            content = f"# {topic_name} - {filename.replace('.md', '').title()}\n\n"
-            content += f"Generated on {datetime.now(timezone.utc).isoformat()} UTC\n"
-            with open(file_path, "w") as f:
-                f.write(content)
-            print(f"[OK] Topic file generated: {file_path}")
-
-    state[folder_name] = {"last_run": datetime.now(timezone.utc).isoformat()}
+# Generate topic files
+def generate_topic_files(topic_name, category_folder):
+    os.makedirs(category_folder, exist_ok=True)
+    base_name = topic_name.lower().replace(" ", "-")
+    filenames = [
+        f"{base_name}-notes.md",
+        f"{base_name}-commands.md",
+        f"{base_name}-poc.md"
+    ]
+    for filename in filenames:
+        filepath = os.path.join(category_folder, filename)
+        if not os.path.exists(filepath):
+            with open(filepath, "w") as f:
+                f.write(f"# {topic_name}\nGenerated on {datetime.now(timezone.utc).isoformat()} UTC\n")
+    return filenames
 
 def main():
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
-
     roadmap = load_json(ROADMAP_FILE)
     state = load_state(STATE_FILE)
 
-    for idx, topic in enumerate(roadmap, start=1):
-        generate_topic(idx, topic, state)
+    for idx, topic in enumerate(roadmap, 1):
+        # Determine category (first word)
+        category = topic.split()[0].lower()
+        category_folder = os.path.join(OUTPUT_DIR, f"{idx:02d}-{category}")
+
+        # Generate files inside category folder
+        files_created = generate_topic_files(topic, category_folder)
+        print(f"[OK] Topic generated: {topic} in {category_folder}")
+
+        # Update state
+        state[topic] = {
+            "folder": category_folder,
+            "files": files_created,
+            "timestamp": datetime.now(timezone.utc).isoformat()
+        }
 
     save_state(STATE_FILE, state)
     print("[OK] All topics processed successfully!")
