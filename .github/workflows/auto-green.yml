@@ -12,8 +12,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      - name: Checkout repo with token
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.REPO_TOKEN }}
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -31,4 +33,4 @@ jobs:
           git config user.email "github-actions@github.com"
           git add .
           git commit -m "Daily DevOps learning update" || echo "No changes"
-          git push https://$REPO_TOKEN@github.com/sbp828/aws-devops.git HEAD:main
+          git push origin HEAD:main
