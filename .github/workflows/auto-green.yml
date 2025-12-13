@@ -23,7 +23,7 @@ jobs:
       - name: Generate learning content
         run: python generate.py
 
-      - name: Commit changes
+      - name: Commit and push changes
         env:
           REPO_TOKEN: ${{ secrets.REPO_TOKEN }}
         run: |
@@ -31,4 +31,4 @@ jobs:
           git config user.email "github-actions@github.com"
           git add .
           git commit -m "Daily DevOps learning update" || echo "No changes"
-          git push https://$REPO_TOKEN@github.com/sbp828/aws-devops.git
+          git push https://$REPO_TOKEN@github.com/sbp828/aws-devops.git HEAD:main
