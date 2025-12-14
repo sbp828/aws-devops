@@ -5,13 +5,11 @@ on:
     # 1️⃣ Fixed IST ~13:30 (08:00 UTC)
     - cron: "0 8 * * *"
 
-    # 2️⃣ Random window IST afternoon (~10–12 UTC)
-    - cron: "17 10 * * *"
+    # 2️⃣ window IST afternoon (~10–12 UTC)
     - cron: "41 11 * * *"
 
-    # 3️⃣ Random window IST evening (~13–15 UTC)
+    # 3️⃣  window IST evening (~13–15 UTC)
     - cron: "23 13 * * *"
-    - cron: "49 14 * * *"
 
   workflow_dispatch:
 
