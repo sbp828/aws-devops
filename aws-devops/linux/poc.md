@@ -38,3 +38,8 @@
 ## Linux System Monitoring
 - Proof of concept ideas for **Linux System Monitoring**
 - (Scripts / configs later)
+
+
+## Linux Shell Scripting
+- Proof of concept ideas for **Linux Shell Scripting**
+- (Scripts / configs later)

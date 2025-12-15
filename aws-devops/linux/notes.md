@@ -38,3 +38,8 @@
 ## Linux System Monitoring
 - Learned concepts related to **Linux System Monitoring**
 - Study timestamp: 2025-12-15T08:59:29.392561+00:00
+
+
+## Linux Shell Scripting
+- Learned concepts related to **Linux Shell Scripting**
+- Study timestamp: 2025-12-15T11:48:24.042965+00:00
