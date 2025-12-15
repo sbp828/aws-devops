@@ -43,3 +43,8 @@
 ## Linux Shell Scripting
 - Learned concepts related to **Linux Shell Scripting**
 - Study timestamp: 2025-12-15T11:48:24.042965+00:00
+
+
+## Linux Cron Jobs
+- Learned concepts related to **Linux Cron Jobs**
+- Study timestamp: 2025-12-15T14:01:34.184849+00:00

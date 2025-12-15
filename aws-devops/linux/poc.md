@@ -43,3 +43,8 @@
 ## Linux Shell Scripting
 - Proof of concept ideas for **Linux Shell Scripting**
 - (Scripts / configs later)
+
+
+## Linux Cron Jobs
+- Proof of concept ideas for **Linux Cron Jobs**
+- (Scripts / configs later)
