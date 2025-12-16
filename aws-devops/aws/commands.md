@@ -8,3 +8,8 @@
 ## AWS EC2 AMI and Launch Templates
 - Example commands for **AWS EC2 AMI and Launch Templates**
 - (Add real commands here later)
+
+
+## AWS EC2 Security Groups
+- Example commands for **AWS EC2 Security Groups**
+- (Add real commands here later)
