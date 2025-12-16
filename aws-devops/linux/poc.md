@@ -45,8 +45,26 @@ cat app.log
 
 
 ## Linux Process Management
-- Proof of concept ideas for **Linux Process Management**
-- (Scripts / configs later)
+Linux POC 2: Process & Port Understanding
+
+## Objective
+Understand processes, ports, and how apps run & listen.
+
+## Steps
+```bash
+# Start simple server
+cd /opt/app
+python3 -m http.server 8080
+
+# Check running process
+ps aux | grep python
+
+# Check port
+ss -tulnp | grep 8080
+
+# Stop server
+pkill -f "python3 -m http.server"
+```
 
 
 ## Linux Disk Management
