@@ -23,7 +23,7 @@ echo -e '#!/bin/bash\necho "App started"\ndate >> app.log' > app.sh
 chmod +x app.sh
 ./app.sh
 cat app.log
-
+```
 ## Linux File System
 - Proof of concept ideas for **Linux File System**
 - (Scripts / configs later)
