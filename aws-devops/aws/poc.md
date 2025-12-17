@@ -23,3 +23,8 @@
 ## AWS IAM Basics
 - Proof of concept ideas for **AWS IAM Basics**
 - (Scripts / configs later)
+
+
+## AWS IAM Users
+- Proof of concept ideas for **AWS IAM Users**
+- (Scripts / configs later)

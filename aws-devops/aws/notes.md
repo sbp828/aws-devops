@@ -23,3 +23,8 @@
 ## AWS IAM Basics
 - Learned concepts related to **AWS IAM Basics**
 - Study timestamp: 2025-12-17T11:47:39.708596+00:00
+
+
+## AWS IAM Users
+- Learned concepts related to **AWS IAM Users**
+- Study timestamp: 2025-12-17T13:55:33.299330+00:00
