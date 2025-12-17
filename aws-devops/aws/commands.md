@@ -13,3 +13,8 @@
 ## AWS EC2 Security Groups
 - Example commands for **AWS EC2 Security Groups**
 - (Add real commands here later)
+
+
+## AWS EC2 Auto Scaling
+- Example commands for **AWS EC2 Auto Scaling**
+- (Add real commands here later)

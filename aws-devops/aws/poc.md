@@ -13,3 +13,8 @@
 ## AWS EC2 Security Groups
 - Proof of concept ideas for **AWS EC2 Security Groups**
 - (Scripts / configs later)
+
+
+## AWS EC2 Auto Scaling
+- Proof of concept ideas for **AWS EC2 Auto Scaling**
+- (Scripts / configs later)
