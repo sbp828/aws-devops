@@ -18,3 +18,8 @@
 ## AWS EC2 Auto Scaling
 - Example commands for **AWS EC2 Auto Scaling**
 - (Add real commands here later)
+
+
+## AWS IAM Basics
+- Example commands for **AWS IAM Basics**
+- (Add real commands here later)

@@ -18,3 +18,8 @@
 ## AWS EC2 Auto Scaling
 - Learned concepts related to **AWS EC2 Auto Scaling**
 - Study timestamp: 2025-12-17T08:57:58.236654+00:00
+
+
+## AWS IAM Basics
+- Learned concepts related to **AWS IAM Basics**
+- Study timestamp: 2025-12-17T11:47:39.708596+00:00

@@ -18,3 +18,8 @@
 ## AWS EC2 Auto Scaling
 - Proof of concept ideas for **AWS EC2 Auto Scaling**
 - (Scripts / configs later)
+
+
+## AWS IAM Basics
+- Proof of concept ideas for **AWS IAM Basics**
+- (Scripts / configs later)
