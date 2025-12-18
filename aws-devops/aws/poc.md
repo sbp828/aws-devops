@@ -28,3 +28,8 @@
 ## AWS IAM Users
 - Proof of concept ideas for **AWS IAM Users**
 - (Scripts / configs later)
+
+
+## AWS IAM Roles
+- Proof of concept ideas for **AWS IAM Roles**
+- (Scripts / configs later)

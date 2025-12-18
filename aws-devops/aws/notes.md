@@ -28,3 +28,8 @@
 ## AWS IAM Users
 - Learned concepts related to **AWS IAM Users**
 - Study timestamp: 2025-12-17T13:55:33.299330+00:00
+
+
+## AWS IAM Roles
+- Learned concepts related to **AWS IAM Roles**
+- Study timestamp: 2025-12-18T08:56:45.003567+00:00
