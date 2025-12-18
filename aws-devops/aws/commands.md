@@ -33,3 +33,8 @@
 ## AWS IAM Roles
 - Example commands for **AWS IAM Roles**
 - (Add real commands here later)
+
+
+## AWS IAM Policies
+- Example commands for **AWS IAM Policies**
+- (Add real commands here later)

@@ -33,3 +33,8 @@
 ## AWS IAM Roles
 - Proof of concept ideas for **AWS IAM Roles**
 - (Scripts / configs later)
+
+
+## AWS IAM Policies
+- Proof of concept ideas for **AWS IAM Policies**
+- (Scripts / configs later)

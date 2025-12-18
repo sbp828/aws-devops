@@ -33,3 +33,8 @@
 ## AWS IAM Roles
 - Learned concepts related to **AWS IAM Roles**
 - Study timestamp: 2025-12-18T08:56:45.003567+00:00
+
+
+## AWS IAM Policies
+- Learned concepts related to **AWS IAM Policies**
+- Study timestamp: 2025-12-18T11:47:58.903019+00:00
