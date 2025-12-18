@@ -38,3 +38,8 @@
 ## AWS IAM Policies
 - Proof of concept ideas for **AWS IAM Policies**
 - (Scripts / configs later)
+
+
+## AWS VPC Basics
+- Proof of concept ideas for **AWS VPC Basics**
+- (Scripts / configs later)

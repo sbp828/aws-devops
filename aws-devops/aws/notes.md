@@ -38,3 +38,8 @@
 ## AWS IAM Policies
 - Learned concepts related to **AWS IAM Policies**
 - Study timestamp: 2025-12-18T11:47:58.903019+00:00
+
+
+## AWS VPC Basics
+- Learned concepts related to **AWS VPC Basics**
+- Study timestamp: 2025-12-18T13:58:49.972025+00:00
