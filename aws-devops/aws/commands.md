@@ -48,3 +48,8 @@
 ## AWS Subnets and Route Tables
 - Example commands for **AWS Subnets and Route Tables**
 - (Add real commands here later)
+
+
+## AWS Internet Gateway
+- Example commands for **AWS Internet Gateway**
+- (Add real commands here later)

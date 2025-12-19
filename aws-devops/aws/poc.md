@@ -48,3 +48,8 @@
 ## AWS Subnets and Route Tables
 - Proof of concept ideas for **AWS Subnets and Route Tables**
 - (Scripts / configs later)
+
+
+## AWS Internet Gateway
+- Proof of concept ideas for **AWS Internet Gateway**
+- (Scripts / configs later)

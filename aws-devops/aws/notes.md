@@ -48,3 +48,8 @@
 ## AWS Subnets and Route Tables
 - Learned concepts related to **AWS Subnets and Route Tables**
 - Study timestamp: 2025-12-19T08:55:32.925365+00:00
+
+
+## AWS Internet Gateway
+- Learned concepts related to **AWS Internet Gateway**
+- Study timestamp: 2025-12-19T11:46:30.392603+00:00
