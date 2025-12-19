@@ -53,3 +53,8 @@
 ## AWS Internet Gateway
 - Proof of concept ideas for **AWS Internet Gateway**
 - (Scripts / configs later)
+
+
+## AWS NAT Gateway
+- Proof of concept ideas for **AWS NAT Gateway**
+- (Scripts / configs later)

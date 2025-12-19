@@ -53,3 +53,8 @@
 ## AWS Internet Gateway
 - Example commands for **AWS Internet Gateway**
 - (Add real commands here later)
+
+
+## AWS NAT Gateway
+- Example commands for **AWS NAT Gateway**
+- (Add real commands here later)

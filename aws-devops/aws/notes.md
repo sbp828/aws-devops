@@ -53,3 +53,8 @@
 ## AWS Internet Gateway
 - Learned concepts related to **AWS Internet Gateway**
 - Study timestamp: 2025-12-19T11:46:30.392603+00:00
+
+
+## AWS NAT Gateway
+- Learned concepts related to **AWS NAT Gateway**
+- Study timestamp: 2025-12-19T13:53:07.808595+00:00
