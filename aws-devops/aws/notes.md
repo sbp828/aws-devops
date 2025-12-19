@@ -43,3 +43,8 @@
 ## AWS VPC Basics
 - Learned concepts related to **AWS VPC Basics**
 - Study timestamp: 2025-12-18T13:58:49.972025+00:00
+
+
+## AWS Subnets and Route Tables
+- Learned concepts related to **AWS Subnets and Route Tables**
+- Study timestamp: 2025-12-19T08:55:32.925365+00:00

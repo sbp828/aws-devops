@@ -43,3 +43,8 @@
 ## AWS VPC Basics
 - Proof of concept ideas for **AWS VPC Basics**
 - (Scripts / configs later)
+
+
+## AWS Subnets and Route Tables
+- Proof of concept ideas for **AWS Subnets and Route Tables**
+- (Scripts / configs later)

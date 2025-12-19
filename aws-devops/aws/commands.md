@@ -43,3 +43,8 @@
 ## AWS VPC Basics
 - Example commands for **AWS VPC Basics**
 - (Add real commands here later)
+
+
+## AWS Subnets and Route Tables
+- Example commands for **AWS Subnets and Route Tables**
+- (Add real commands here later)
