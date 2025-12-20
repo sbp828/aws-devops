@@ -58,3 +58,8 @@
 ## AWS NAT Gateway
 - Learned concepts related to **AWS NAT Gateway**
 - Study timestamp: 2025-12-19T13:53:07.808595+00:00
+
+
+## aws-lambda
+- Learned concepts related to **aws-lambda**
+- Study timestamp: 2025-12-20T01:42:15.405576+00:00

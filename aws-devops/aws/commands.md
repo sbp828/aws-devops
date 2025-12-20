@@ -58,3 +58,8 @@
 ## AWS NAT Gateway
 - Example commands for **AWS NAT Gateway**
 - (Add real commands here later)
+
+
+## aws-lambda
+- Example commands for **aws-lambda**
+- (Add real commands here later)

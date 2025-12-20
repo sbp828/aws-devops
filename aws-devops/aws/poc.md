@@ -58,3 +58,8 @@
 ## AWS NAT Gateway
 - Proof of concept ideas for **AWS NAT Gateway**
 - (Scripts / configs later)
+
+
+## aws-lambda
+- Proof of concept ideas for **aws-lambda**
+- (Scripts / configs later)
