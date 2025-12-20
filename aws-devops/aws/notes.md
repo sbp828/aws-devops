@@ -63,3 +63,8 @@
 ## aws-lambda
 - Learned concepts related to **aws-lambda**
 - Study timestamp: 2025-12-20T01:42:15.405576+00:00
+
+
+## aws-rds
+- Learned concepts related to **aws-rds**
+- Study timestamp: 2025-12-20T01:48:44.452772+00:00

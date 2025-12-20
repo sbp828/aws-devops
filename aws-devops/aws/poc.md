@@ -63,3 +63,8 @@
 ## aws-lambda
 - Proof of concept ideas for **aws-lambda**
 - (Scripts / configs later)
+
+
+## aws-rds
+- Proof of concept ideas for **aws-rds**
+- (Scripts / configs later)
