@@ -16,17 +16,20 @@ def load_roadmap():
     for path in ROADMAP_PATHS:
         if path.exists():
             with open(path, "r") as f:
-                if path.suffix in [".yaml", ".yml"]:
-                    data = yaml.safe_load(f)
-                else:
-                    data = json.load(f)
+                data = yaml.safe_load(f)
 
-                if not data:
-                    raise ValueError(f"{path} is empty")
+            if "days" not in data:
+                raise ValueError("roadmap.yaml must contain 'days' key")
 
-                return data
+            # Sort days numerically and extract artifacts
+            ordered = [
+                data["days"][day]["artifact"]
+                for day in sorted(data["days"], key=lambda x: int(x))
+            ]
 
-    raise FileNotFoundError("roadmap.yaml not found in aws-devops/ or data/")
+            return ordered
+
+    raise FileNotFoundError("roadmap.yaml not found")
 
 def load_state():
     if STATE_FILE.exists():
