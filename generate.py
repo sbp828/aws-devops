@@ -68,6 +68,13 @@ def main():
     roadmap = load_roadmap()
     state = load_state()
 
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+
+    # 🚫 Already processed today → exit
+    if state.get("last_processed_date") == today:
+        print(f"[SKIP] Already processed artifact for {today}")
+        return
+
     if state["index"] >= len(roadmap):
         print("[OK] All topics processed successfully!")
         return
@@ -102,10 +109,14 @@ def main():
         f"- Proof of concept ideas for **{topic}**\n- (Scripts / configs later)"
     )
 
+    # ✅ Update state
     state["index"] += 1
+    state["last_processed_date"] = today
     save_state(state)
 
-    print(f"[OK] Topic {state['index']}: {topic} → {category}/")
+    print(f"[OK] Day {state['index']} completed → {topic}")
+
+ 
 
 
 if __name__ == "__main__":
