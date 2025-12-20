@@ -5,8 +5,8 @@ from datetime import datetime, timezone
 BASE_DIR = Path(__file__).parent
 CONTENT_DIR = BASE_DIR / "aws-devops"
 ROADMAP_PATHS = [
-    BASE_DIR / "data" / "roadmap" / "roadmap.json",
-    BASE_DIR / "aws-devops" / "roadmap.json"
+    BASE_DIR / "data" / "roadmap" / "roadmap.yaml",
+    BASE_DIR / "aws-devops" / "roadmap.yaml"
 ]
 STATE_FILE = BASE_DIR / ".state.json"
 
