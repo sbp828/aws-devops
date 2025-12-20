@@ -38,6 +38,6 @@ jobs:
           python3 generate.py
 
           git add aws-devops .state.json
-          git commit -m "Day $(date +%j): automated DevOps learning update" || exit 0
+          git commit -m "Day $(date +%j): DevOps learning update" || exit 0
 
           git push https://$REPO_TOKEN@github.com/sbp828/aws-devops.git HEAD:main
