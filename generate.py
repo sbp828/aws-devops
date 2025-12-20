@@ -1,4 +1,5 @@
 import json
+import yaml
 from pathlib import Path
 from datetime import datetime, timezone
 
@@ -14,10 +15,18 @@ STATE_FILE = BASE_DIR / ".state.json"
 def load_roadmap():
     for path in ROADMAP_PATHS:
         if path.exists():
-            with open(path) as f:
-                return json.load(f)
-    raise FileNotFoundError("roadmap.json not found in aws-devops/ or data/")
+            with open(path, "r") as f:
+                if path.suffix in [".yaml", ".yml"]:
+                    data = yaml.safe_load(f)
+                else:
+                    data = json.load(f)
 
+                if not data:
+                    raise ValueError(f"{path} is empty")
+
+                return data
+
+    raise FileNotFoundError("roadmap.yaml not found in aws-devops/ or data/")
 
 def load_state():
     if STATE_FILE.exists():
