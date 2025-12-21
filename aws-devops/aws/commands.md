@@ -68,3 +68,8 @@
 ## aws-rds
 - Example commands for **aws-rds**
 - (Add real commands here later)
+
+
+## aws-dynamodb
+- Example commands for **aws-dynamodb**
+- (Add real commands here later)

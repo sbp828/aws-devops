@@ -68,3 +68,8 @@
 ## aws-rds
 - Learned concepts related to **aws-rds**
 - Study timestamp: 2025-12-20T01:48:44.452772+00:00
+
+
+## aws-dynamodb
+- Learned concepts related to **aws-dynamodb**
+- Study timestamp: 2025-12-21T08:49:56.743224+00:00

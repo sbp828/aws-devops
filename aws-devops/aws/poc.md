@@ -68,3 +68,8 @@
 ## aws-rds
 - Proof of concept ideas for **aws-rds**
 - (Scripts / configs later)
+
+
+## aws-dynamodb
+- Proof of concept ideas for **aws-dynamodb**
+- (Scripts / configs later)
