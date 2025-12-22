@@ -73,3 +73,8 @@
 ## aws-dynamodb
 - Example commands for **aws-dynamodb**
 - (Add real commands here later)
+
+
+## aws-sqs
+- Example commands for **aws-sqs**
+- (Add real commands here later)

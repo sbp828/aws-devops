@@ -73,3 +73,8 @@
 ## aws-dynamodb
 - Learned concepts related to **aws-dynamodb**
 - Study timestamp: 2025-12-21T08:49:56.743224+00:00
+
+
+## aws-sqs
+- Learned concepts related to **aws-sqs**
+- Study timestamp: 2025-12-22T08:57:56.974686+00:00

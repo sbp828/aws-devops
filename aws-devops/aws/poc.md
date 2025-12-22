@@ -73,3 +73,8 @@
 ## aws-dynamodb
 - Proof of concept ideas for **aws-dynamodb**
 - (Scripts / configs later)
+
+
+## aws-sqs
+- Proof of concept ideas for **aws-sqs**
+- (Scripts / configs later)
