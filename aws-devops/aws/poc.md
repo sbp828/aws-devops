@@ -78,3 +78,8 @@
 ## aws-sqs
 - Proof of concept ideas for **aws-sqs**
 - (Scripts / configs later)
+
+
+## aws-sns
+- Proof of concept ideas for **aws-sns**
+- (Scripts / configs later)

@@ -78,3 +78,8 @@
 ## aws-sqs
 - Learned concepts related to **aws-sqs**
 - Study timestamp: 2025-12-22T08:57:56.974686+00:00
+
+
+## aws-sns
+- Learned concepts related to **aws-sns**
+- Study timestamp: 2025-12-23T08:57:42.356537+00:00

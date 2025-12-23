@@ -78,3 +78,8 @@
 ## aws-sqs
 - Example commands for **aws-sqs**
 - (Add real commands here later)
+
+
+## aws-sns
+- Example commands for **aws-sns**
+- (Add real commands here later)
