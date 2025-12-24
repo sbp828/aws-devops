@@ -83,3 +83,8 @@
 ## aws-sns
 - Learned concepts related to **aws-sns**
 - Study timestamp: 2025-12-23T08:57:42.356537+00:00
+
+
+## aws-elastic-beanstalk
+- Learned concepts related to **aws-elastic-beanstalk**
+- Study timestamp: 2025-12-24T08:57:46.180765+00:00

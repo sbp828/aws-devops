@@ -83,3 +83,8 @@
 ## aws-sns
 - Example commands for **aws-sns**
 - (Add real commands here later)
+
+
+## aws-elastic-beanstalk
+- Example commands for **aws-elastic-beanstalk**
+- (Add real commands here later)

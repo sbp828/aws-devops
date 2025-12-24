@@ -83,3 +83,8 @@
 ## aws-sns
 - Proof of concept ideas for **aws-sns**
 - (Scripts / configs later)
+
+
+## aws-elastic-beanstalk
+- Proof of concept ideas for **aws-elastic-beanstalk**
+- (Scripts / configs later)
