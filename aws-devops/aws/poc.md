@@ -88,3 +88,8 @@
 ## aws-elastic-beanstalk
 - Proof of concept ideas for **aws-elastic-beanstalk**
 - (Scripts / configs later)
+
+
+## aws-ssm
+- Proof of concept ideas for **aws-ssm**
+- (Scripts / configs later)

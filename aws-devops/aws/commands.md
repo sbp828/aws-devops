@@ -88,3 +88,8 @@
 ## aws-elastic-beanstalk
 - Example commands for **aws-elastic-beanstalk**
 - (Add real commands here later)
+
+
+## aws-ssm
+- Example commands for **aws-ssm**
+- (Add real commands here later)
