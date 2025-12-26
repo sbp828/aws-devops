@@ -93,3 +93,8 @@
 ## aws-ssm
 - Learned concepts related to **aws-ssm**
 - Study timestamp: 2025-12-25T08:55:21.184750+00:00
+
+
+## aws-efs
+- Learned concepts related to **aws-efs**
+- Study timestamp: 2025-12-26T08:54:58.723998+00:00

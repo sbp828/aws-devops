@@ -93,3 +93,8 @@
 ## aws-ssm
 - Proof of concept ideas for **aws-ssm**
 - (Scripts / configs later)
+
+
+## aws-efs
+- Proof of concept ideas for **aws-efs**
+- (Scripts / configs later)
