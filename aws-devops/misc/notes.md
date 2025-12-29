@@ -8,3 +8,8 @@
 ## ci-codebuild
 - Learned concepts related to **ci-codebuild**
 - Study timestamp: 2025-12-28T08:52:12.649582+00:00
+
+
+## ci-codepipeline
+- Learned concepts related to **ci-codepipeline**
+- Study timestamp: 2025-12-29T09:00:26.471491+00:00
