@@ -13,3 +13,8 @@
 ## ci-codepipeline
 - Learned concepts related to **ci-codepipeline**
 - Study timestamp: 2025-12-29T09:00:26.471491+00:00
+
+
+## ci-github-actions
+- Learned concepts related to **ci-github-actions**
+- Study timestamp: 2025-12-31T08:57:40.704136+00:00
