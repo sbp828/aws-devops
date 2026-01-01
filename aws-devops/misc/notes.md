@@ -18,3 +18,8 @@
 ## ci-github-actions
 - Learned concepts related to **ci-github-actions**
 - Study timestamp: 2025-12-31T08:57:40.704136+00:00
+
+
+## ci-test-automation
+- Learned concepts related to **ci-test-automation**
+- Study timestamp: 2026-01-01T08:57:06.459838+00:00

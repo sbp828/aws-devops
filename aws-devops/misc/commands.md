@@ -18,3 +18,8 @@
 ## ci-github-actions
 - Example commands for **ci-github-actions**
 - (Add real commands here later)
+
+
+## ci-test-automation
+- Example commands for **ci-test-automation**
+- (Add real commands here later)

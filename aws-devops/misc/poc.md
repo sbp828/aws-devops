@@ -18,3 +18,8 @@
 ## ci-github-actions
 - Proof of concept ideas for **ci-github-actions**
 - (Scripts / configs later)
+
+
+## ci-test-automation
+- Proof of concept ideas for **ci-test-automation**
+- (Scripts / configs later)
