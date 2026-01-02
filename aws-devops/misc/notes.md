@@ -23,3 +23,8 @@
 ## ci-test-automation
 - Learned concepts related to **ci-test-automation**
 - Study timestamp: 2026-01-01T08:57:06.459838+00:00
+
+
+## ci-deployment-strategies
+- Learned concepts related to **ci-deployment-strategies**
+- Study timestamp: 2026-01-02T08:57:49.305873+00:00

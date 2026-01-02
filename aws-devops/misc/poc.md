@@ -23,3 +23,8 @@
 ## ci-test-automation
 - Proof of concept ideas for **ci-test-automation**
 - (Scripts / configs later)
+
+
+## ci-deployment-strategies
+- Proof of concept ideas for **ci-deployment-strategies**
+- (Scripts / configs later)
