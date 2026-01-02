@@ -43,16 +43,8 @@ This project uses **GitHub Actions** to automatically perform daily commits or r
 3. Add your topics or scripts  
 4. GitHub will run the action on schedule
 
----
 
-## 📸 Screenshots
-
-![Workflow Run](path-to-your-workflow-screenshot.png)
-![Commit History](path-to-activity-graph.png)
 
 ---
 
-## 📩 Contact
-
-If you're interested in a **customized GitHub automation**, check out my Fiverr gig: 
 
