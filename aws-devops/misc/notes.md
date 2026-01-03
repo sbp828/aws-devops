@@ -28,3 +28,8 @@
 ## ci-deployment-strategies
 - Learned concepts related to **ci-deployment-strategies**
 - Study timestamp: 2026-01-02T08:57:49.305873+00:00
+
+
+## ci-blue-green
+- Learned concepts related to **ci-blue-green**
+- Study timestamp: 2026-01-03T08:52:59.609365+00:00

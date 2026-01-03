@@ -28,3 +28,8 @@
 ## ci-deployment-strategies
 - Proof of concept ideas for **ci-deployment-strategies**
 - (Scripts / configs later)
+
+
+## ci-blue-green
+- Proof of concept ideas for **ci-blue-green**
+- (Scripts / configs later)

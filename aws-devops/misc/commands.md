@@ -28,3 +28,8 @@
 ## ci-deployment-strategies
 - Example commands for **ci-deployment-strategies**
 - (Add real commands here later)
+
+
+## ci-blue-green
+- Example commands for **ci-blue-green**
+- (Add real commands here later)
