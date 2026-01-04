@@ -33,3 +33,8 @@
 ## ci-blue-green
 - Example commands for **ci-blue-green**
 - (Add real commands here later)
+
+
+## ci-canary
+- Example commands for **ci-canary**
+- (Add real commands here later)

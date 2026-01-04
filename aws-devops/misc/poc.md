@@ -33,3 +33,8 @@
 ## ci-blue-green
 - Proof of concept ideas for **ci-blue-green**
 - (Scripts / configs later)
+
+
+## ci-canary
+- Proof of concept ideas for **ci-canary**
+- (Scripts / configs later)

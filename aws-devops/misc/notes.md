@@ -33,3 +33,8 @@
 ## ci-blue-green
 - Learned concepts related to **ci-blue-green**
 - Study timestamp: 2026-01-03T08:52:59.609365+00:00
+
+
+## ci-canary
+- Learned concepts related to **ci-canary**
+- Study timestamp: 2026-01-04T08:51:41.711804+00:00
