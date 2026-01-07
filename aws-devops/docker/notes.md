@@ -8,3 +8,8 @@
 ## docker-containers
 - Learned concepts related to **docker-containers**
 - Study timestamp: 2026-01-06T08:35:59.226226+00:00
+
+
+## dockerfile-basics
+- Learned concepts related to **dockerfile-basics**
+- Study timestamp: 2026-01-07T08:35:36.836196+00:00
