@@ -13,3 +13,8 @@
 ## dockerfile-basics
 - Learned concepts related to **dockerfile-basics**
 - Study timestamp: 2026-01-07T08:35:36.836196+00:00
+
+
+## docker-compose
+- Learned concepts related to **docker-compose**
+- Study timestamp: 2026-01-08T08:35:33.795336+00:00
