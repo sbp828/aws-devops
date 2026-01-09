@@ -18,3 +18,8 @@
 ## docker-compose
 - Proof of concept ideas for **docker-compose**
 - (Scripts / configs later)
+
+
+## docker-registry
+- Proof of concept ideas for **docker-registry**
+- (Scripts / configs later)

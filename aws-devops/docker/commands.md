@@ -18,3 +18,8 @@
 ## docker-compose
 - Example commands for **docker-compose**
 - (Add real commands here later)
+
+
+## docker-registry
+- Example commands for **docker-registry**
+- (Add real commands here later)

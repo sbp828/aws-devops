@@ -18,3 +18,8 @@
 ## docker-compose
 - Learned concepts related to **docker-compose**
 - Study timestamp: 2026-01-08T08:35:33.795336+00:00
+
+
+## docker-registry
+- Learned concepts related to **docker-registry**
+- Study timestamp: 2026-01-09T08:35:19.139758+00:00
