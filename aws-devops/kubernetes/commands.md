@@ -8,3 +8,8 @@
 ## kubernetes-pods
 - Example commands for **kubernetes-pods**
 - (Add real commands here later)
+
+
+## kubernetes-deployments
+- Example commands for **kubernetes-deployments**
+- (Add real commands here later)
