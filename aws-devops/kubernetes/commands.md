@@ -13,3 +13,8 @@
 ## kubernetes-deployments
 - Example commands for **kubernetes-deployments**
 - (Add real commands here later)
+
+
+## kubernetes-services
+- Example commands for **kubernetes-services**
+- (Add real commands here later)

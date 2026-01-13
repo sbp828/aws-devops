@@ -13,3 +13,8 @@
 ## kubernetes-deployments
 - Proof of concept ideas for **kubernetes-deployments**
 - (Scripts / configs later)
+
+
+## kubernetes-services
+- Proof of concept ideas for **kubernetes-services**
+- (Scripts / configs later)
