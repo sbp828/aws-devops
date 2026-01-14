@@ -18,3 +18,8 @@
 ## kubernetes-services
 - Proof of concept ideas for **kubernetes-services**
 - (Scripts / configs later)
+
+
+## kubernetes-configmaps
+- Proof of concept ideas for **kubernetes-configmaps**
+- (Scripts / configs later)

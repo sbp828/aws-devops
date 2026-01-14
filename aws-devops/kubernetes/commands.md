@@ -18,3 +18,8 @@
 ## kubernetes-services
 - Example commands for **kubernetes-services**
 - (Add real commands here later)
+
+
+## kubernetes-configmaps
+- Example commands for **kubernetes-configmaps**
+- (Add real commands here later)

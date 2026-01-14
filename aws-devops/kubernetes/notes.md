@@ -18,3 +18,8 @@
 ## kubernetes-services
 - Learned concepts related to **kubernetes-services**
 - Study timestamp: 2026-01-13T08:35:25.104482+00:00
+
+
+## kubernetes-configmaps
+- Learned concepts related to **kubernetes-configmaps**
+- Study timestamp: 2026-01-14T08:35:11.927497+00:00
