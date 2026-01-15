@@ -23,3 +23,8 @@
 ## kubernetes-configmaps
 - Proof of concept ideas for **kubernetes-configmaps**
 - (Scripts / configs later)
+
+
+## kubernetes-secrets
+- Proof of concept ideas for **kubernetes-secrets**
+- (Scripts / configs later)

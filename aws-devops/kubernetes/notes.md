@@ -23,3 +23,8 @@
 ## kubernetes-configmaps
 - Learned concepts related to **kubernetes-configmaps**
 - Study timestamp: 2026-01-14T08:35:11.927497+00:00
+
+
+## kubernetes-secrets
+- Learned concepts related to **kubernetes-secrets**
+- Study timestamp: 2026-01-15T08:35:18.079990+00:00

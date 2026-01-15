@@ -23,3 +23,8 @@
 ## kubernetes-configmaps
 - Example commands for **kubernetes-configmaps**
 - (Add real commands here later)
+
+
+## kubernetes-secrets
+- Example commands for **kubernetes-secrets**
+- (Add real commands here later)
