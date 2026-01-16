@@ -28,3 +28,8 @@
 ## kubernetes-secrets
 - Proof of concept ideas for **kubernetes-secrets**
 - (Scripts / configs later)
+
+
+## kubernetes-volumes
+- Proof of concept ideas for **kubernetes-volumes**
+- (Scripts / configs later)
