@@ -33,3 +33,8 @@
 ## kubernetes-volumes
 - Learned concepts related to **kubernetes-volumes**
 - Study timestamp: 2026-01-16T08:34:32.970154+00:00
+
+
+## kubernetes-ingress
+- Learned concepts related to **kubernetes-ingress**
+- Study timestamp: 2026-01-17T08:30:27.968575+00:00
