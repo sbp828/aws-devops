@@ -38,3 +38,8 @@
 ## kubernetes-ingress
 - Learned concepts related to **kubernetes-ingress**
 - Study timestamp: 2026-01-17T08:30:27.968575+00:00
+
+
+## kubernetes-rbac
+- Learned concepts related to **kubernetes-rbac**
+- Study timestamp: 2026-01-18T08:30:50.245165+00:00
