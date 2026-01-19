@@ -43,3 +43,8 @@
 ## kubernetes-rbac
 - Example commands for **kubernetes-rbac**
 - (Add real commands here later)
+
+
+## kubernetes-hpa
+- Example commands for **kubernetes-hpa**
+- (Add real commands here later)

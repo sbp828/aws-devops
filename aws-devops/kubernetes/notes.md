@@ -43,3 +43,8 @@
 ## kubernetes-rbac
 - Learned concepts related to **kubernetes-rbac**
 - Study timestamp: 2026-01-18T08:30:50.245165+00:00
+
+
+## kubernetes-hpa
+- Learned concepts related to **kubernetes-hpa**
+- Study timestamp: 2026-01-19T08:37:33.629196+00:00

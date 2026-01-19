@@ -43,3 +43,8 @@
 ## kubernetes-rbac
 - Proof of concept ideas for **kubernetes-rbac**
 - (Scripts / configs later)
+
+
+## kubernetes-hpa
+- Proof of concept ideas for **kubernetes-hpa**
+- (Scripts / configs later)
