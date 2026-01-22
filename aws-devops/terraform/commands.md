@@ -8,3 +8,8 @@
 ## terraform-providers
 - Example commands for **terraform-providers**
 - (Add real commands here later)
+
+
+## terraform-resources
+- Example commands for **terraform-resources**
+- (Add real commands here later)
