@@ -13,3 +13,8 @@
 ## terraform-resources
 - Proof of concept ideas for **terraform-resources**
 - (Scripts / configs later)
+
+
+## terraform-modules
+- Proof of concept ideas for **terraform-modules**
+- (Scripts / configs later)

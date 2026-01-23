@@ -13,3 +13,8 @@
 ## terraform-resources
 - Example commands for **terraform-resources**
 - (Add real commands here later)
+
+
+## terraform-modules
+- Example commands for **terraform-modules**
+- (Add real commands here later)

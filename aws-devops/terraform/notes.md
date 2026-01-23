@@ -13,3 +13,8 @@
 ## terraform-resources
 - Learned concepts related to **terraform-resources**
 - Study timestamp: 2026-01-22T08:37:04.358298+00:00
+
+
+## terraform-modules
+- Learned concepts related to **terraform-modules**
+- Study timestamp: 2026-01-23T08:34:51.038702+00:00
