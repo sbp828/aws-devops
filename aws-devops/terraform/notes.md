@@ -18,3 +18,8 @@
 ## terraform-modules
 - Learned concepts related to **terraform-modules**
 - Study timestamp: 2026-01-23T08:34:51.038702+00:00
+
+
+## terraform-state
+- Learned concepts related to **terraform-state**
+- Study timestamp: 2026-01-24T08:30:57.823028+00:00
