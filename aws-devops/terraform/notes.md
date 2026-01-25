@@ -23,3 +23,8 @@
 ## terraform-state
 - Learned concepts related to **terraform-state**
 - Study timestamp: 2026-01-24T08:30:57.823028+00:00
+
+
+## terraform-variables
+- Learned concepts related to **terraform-variables**
+- Study timestamp: 2026-01-25T08:31:31.556715+00:00

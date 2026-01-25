@@ -23,3 +23,8 @@
 ## terraform-state
 - Proof of concept ideas for **terraform-state**
 - (Scripts / configs later)
+
+
+## terraform-variables
+- Proof of concept ideas for **terraform-variables**
+- (Scripts / configs later)

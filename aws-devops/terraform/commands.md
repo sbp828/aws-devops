@@ -23,3 +23,8 @@
 ## terraform-state
 - Example commands for **terraform-state**
 - (Add real commands here later)
+
+
+## terraform-variables
+- Example commands for **terraform-variables**
+- (Add real commands here later)
