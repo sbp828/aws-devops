@@ -28,3 +28,8 @@
 ## terraform-variables
 - Example commands for **terraform-variables**
 - (Add real commands here later)
+
+
+## terraform-outputs
+- Example commands for **terraform-outputs**
+- (Add real commands here later)

@@ -28,3 +28,8 @@
 ## terraform-variables
 - Learned concepts related to **terraform-variables**
 - Study timestamp: 2026-01-25T08:31:31.556715+00:00
+
+
+## terraform-outputs
+- Learned concepts related to **terraform-outputs**
+- Study timestamp: 2026-01-26T08:37:18.856652+00:00

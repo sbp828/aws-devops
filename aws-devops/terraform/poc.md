@@ -28,3 +28,8 @@
 ## terraform-variables
 - Proof of concept ideas for **terraform-variables**
 - (Scripts / configs later)
+
+
+## terraform-outputs
+- Proof of concept ideas for **terraform-outputs**
+- (Scripts / configs later)
