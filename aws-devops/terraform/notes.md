@@ -33,3 +33,8 @@
 ## terraform-outputs
 - Learned concepts related to **terraform-outputs**
 - Study timestamp: 2026-01-26T08:37:18.856652+00:00
+
+
+## terraform-workspaces
+- Learned concepts related to **terraform-workspaces**
+- Study timestamp: 2026-01-27T08:37:12.009674+00:00

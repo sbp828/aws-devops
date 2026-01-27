@@ -33,3 +33,8 @@
 ## terraform-outputs
 - Example commands for **terraform-outputs**
 - (Add real commands here later)
+
+
+## terraform-workspaces
+- Example commands for **terraform-workspaces**
+- (Add real commands here later)

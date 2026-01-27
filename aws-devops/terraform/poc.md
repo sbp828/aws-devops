@@ -33,3 +33,8 @@
 ## terraform-outputs
 - Proof of concept ideas for **terraform-outputs**
 - (Scripts / configs later)
+
+
+## terraform-workspaces
+- Proof of concept ideas for **terraform-workspaces**
+- (Scripts / configs later)
