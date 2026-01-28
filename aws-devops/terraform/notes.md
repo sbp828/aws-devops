@@ -38,3 +38,8 @@
 ## terraform-workspaces
 - Learned concepts related to **terraform-workspaces**
 - Study timestamp: 2026-01-27T08:37:12.009674+00:00
+
+
+## terraform-remote-backend
+- Learned concepts related to **terraform-remote-backend**
+- Study timestamp: 2026-01-28T08:37:14.351434+00:00
