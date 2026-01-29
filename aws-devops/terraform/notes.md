@@ -43,3 +43,8 @@
 ## terraform-remote-backend
 - Learned concepts related to **terraform-remote-backend**
 - Study timestamp: 2026-01-28T08:37:14.351434+00:00
+
+
+## terraform-cloud
+- Learned concepts related to **terraform-cloud**
+- Study timestamp: 2026-01-29T08:44:58.157933+00:00
