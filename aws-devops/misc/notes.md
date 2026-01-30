@@ -38,3 +38,8 @@
 ## ci-canary
 - Learned concepts related to **ci-canary**
 - Study timestamp: 2026-01-04T08:51:41.711804+00:00
+
+
+## helm-charts
+- Learned concepts related to **helm-charts**
+- Study timestamp: 2026-01-30T08:43:39.179900+00:00

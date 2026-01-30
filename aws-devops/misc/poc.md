@@ -38,3 +38,8 @@
 ## ci-canary
 - Proof of concept ideas for **ci-canary**
 - (Scripts / configs later)
+
+
+## helm-charts
+- Proof of concept ideas for **helm-charts**
+- (Scripts / configs later)
