@@ -43,3 +43,8 @@
 ## helm-charts
 - Learned concepts related to **helm-charts**
 - Study timestamp: 2026-01-30T08:43:39.179900+00:00
+
+
+## helm-templates
+- Learned concepts related to **helm-templates**
+- Study timestamp: 2026-01-31T08:35:09.537834+00:00

@@ -43,3 +43,8 @@
 ## helm-charts
 - Proof of concept ideas for **helm-charts**
 - (Scripts / configs later)
+
+
+## helm-templates
+- Proof of concept ideas for **helm-templates**
+- (Scripts / configs later)

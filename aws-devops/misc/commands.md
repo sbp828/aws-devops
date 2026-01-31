@@ -43,3 +43,8 @@
 ## helm-charts
 - Example commands for **helm-charts**
 - (Add real commands here later)
+
+
+## helm-templates
+- Example commands for **helm-templates**
+- (Add real commands here later)
