@@ -48,3 +48,8 @@
 ## helm-templates
 - Proof of concept ideas for **helm-templates**
 - (Scripts / configs later)
+
+
+## helm-values
+- Proof of concept ideas for **helm-values**
+- (Scripts / configs later)

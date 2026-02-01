@@ -48,3 +48,8 @@
 ## helm-templates
 - Learned concepts related to **helm-templates**
 - Study timestamp: 2026-01-31T08:35:09.537834+00:00
+
+
+## helm-values
+- Learned concepts related to **helm-values**
+- Study timestamp: 2026-02-01T08:36:34.432858+00:00
