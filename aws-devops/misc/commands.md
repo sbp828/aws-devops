@@ -58,3 +58,8 @@
 ## helm-releases
 - Example commands for **helm-releases**
 - (Add real commands here later)
+
+
+## helm-repositories
+- Example commands for **helm-repositories**
+- (Add real commands here later)

@@ -58,3 +58,8 @@
 ## helm-releases
 - Proof of concept ideas for **helm-releases**
 - (Scripts / configs later)
+
+
+## helm-repositories
+- Proof of concept ideas for **helm-repositories**
+- (Scripts / configs later)

@@ -58,3 +58,8 @@
 ## helm-releases
 - Learned concepts related to **helm-releases**
 - Study timestamp: 2026-02-02T08:50:19.596771+00:00
+
+
+## helm-repositories
+- Learned concepts related to **helm-repositories**
+- Study timestamp: 2026-02-03T08:41:53.117032+00:00
