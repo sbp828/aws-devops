@@ -63,3 +63,8 @@
 ## helm-repositories
 - Proof of concept ideas for **helm-repositories**
 - (Scripts / configs later)
+
+
+## monitoring-cloudwatch-metrics
+- Proof of concept ideas for **monitoring-cloudwatch-metrics**
+- (Scripts / configs later)

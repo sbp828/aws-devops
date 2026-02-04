@@ -63,3 +63,8 @@
 ## helm-repositories
 - Example commands for **helm-repositories**
 - (Add real commands here later)
+
+
+## monitoring-cloudwatch-metrics
+- Example commands for **monitoring-cloudwatch-metrics**
+- (Add real commands here later)
