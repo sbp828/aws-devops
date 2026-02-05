@@ -68,3 +68,8 @@
 ## monitoring-cloudwatch-metrics
 - Proof of concept ideas for **monitoring-cloudwatch-metrics**
 - (Scripts / configs later)
+
+
+## monitoring-alarms
+- Proof of concept ideas for **monitoring-alarms**
+- (Scripts / configs later)

@@ -68,3 +68,8 @@
 ## monitoring-cloudwatch-metrics
 - Example commands for **monitoring-cloudwatch-metrics**
 - (Add real commands here later)
+
+
+## monitoring-alarms
+- Example commands for **monitoring-alarms**
+- (Add real commands here later)
