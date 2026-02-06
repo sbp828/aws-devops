@@ -73,3 +73,8 @@
 ## monitoring-alarms
 - Proof of concept ideas for **monitoring-alarms**
 - (Scripts / configs later)
+
+
+## monitoring-logs
+- Proof of concept ideas for **monitoring-logs**
+- (Scripts / configs later)

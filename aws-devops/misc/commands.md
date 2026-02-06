@@ -73,3 +73,8 @@
 ## monitoring-alarms
 - Example commands for **monitoring-alarms**
 - (Add real commands here later)
+
+
+## monitoring-logs
+- Example commands for **monitoring-logs**
+- (Add real commands here later)
