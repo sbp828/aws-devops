@@ -78,3 +78,8 @@
 ## monitoring-logs
 - Proof of concept ideas for **monitoring-logs**
 - (Scripts / configs later)
+
+
+## monitoring-grafana
+- Proof of concept ideas for **monitoring-grafana**
+- (Scripts / configs later)

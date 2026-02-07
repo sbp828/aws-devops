@@ -78,3 +78,8 @@
 ## monitoring-logs
 - Example commands for **monitoring-logs**
 - (Add real commands here later)
+
+
+## monitoring-grafana
+- Example commands for **monitoring-grafana**
+- (Add real commands here later)
