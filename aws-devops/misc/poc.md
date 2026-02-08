@@ -83,3 +83,8 @@
 ## monitoring-grafana
 - Proof of concept ideas for **monitoring-grafana**
 - (Scripts / configs later)
+
+
+## monitoring-prometheus
+- Proof of concept ideas for **monitoring-prometheus**
+- (Scripts / configs later)

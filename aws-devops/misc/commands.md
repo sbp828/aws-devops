@@ -83,3 +83,8 @@
 ## monitoring-grafana
 - Example commands for **monitoring-grafana**
 - (Add real commands here later)
+
+
+## monitoring-prometheus
+- Example commands for **monitoring-prometheus**
+- (Add real commands here later)

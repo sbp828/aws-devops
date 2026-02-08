@@ -83,3 +83,8 @@
 ## monitoring-grafana
 - Learned concepts related to **monitoring-grafana**
 - Study timestamp: 2026-02-07T08:36:22.942526+00:00
+
+
+## monitoring-prometheus
+- Learned concepts related to **monitoring-prometheus**
+- Study timestamp: 2026-02-08T08:36:51.815437+00:00
