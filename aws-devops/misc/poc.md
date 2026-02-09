@@ -88,3 +88,8 @@
 ## monitoring-prometheus
 - Proof of concept ideas for **monitoring-prometheus**
 - (Scripts / configs later)
+
+
+## monitoring-alerts
+- Proof of concept ideas for **monitoring-alerts**
+- (Scripts / configs later)

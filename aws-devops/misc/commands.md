@@ -88,3 +88,8 @@
 ## monitoring-prometheus
 - Example commands for **monitoring-prometheus**
 - (Add real commands here later)
+
+
+## monitoring-alerts
+- Example commands for **monitoring-alerts**
+- (Add real commands here later)

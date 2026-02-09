@@ -88,3 +88,8 @@
 ## monitoring-prometheus
 - Learned concepts related to **monitoring-prometheus**
 - Study timestamp: 2026-02-08T08:36:51.815437+00:00
+
+
+## monitoring-alerts
+- Learned concepts related to **monitoring-alerts**
+- Study timestamp: 2026-02-09T08:57:54.353113+00:00
