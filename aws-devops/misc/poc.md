@@ -93,3 +93,8 @@
 ## monitoring-alerts
 - Proof of concept ideas for **monitoring-alerts**
 - (Scripts / configs later)
+
+
+## monitoring-dashboards
+- Proof of concept ideas for **monitoring-dashboards**
+- (Scripts / configs later)

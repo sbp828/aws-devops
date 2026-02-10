@@ -93,3 +93,8 @@
 ## monitoring-alerts
 - Example commands for **monitoring-alerts**
 - (Add real commands here later)
+
+
+## monitoring-dashboards
+- Example commands for **monitoring-dashboards**
+- (Add real commands here later)
