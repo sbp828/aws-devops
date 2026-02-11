@@ -98,3 +98,8 @@
 ## monitoring-dashboards
 - Proof of concept ideas for **monitoring-dashboards**
 - (Scripts / configs later)
+
+
+## monitoring-slo-sli
+- Proof of concept ideas for **monitoring-slo-sli**
+- (Scripts / configs later)

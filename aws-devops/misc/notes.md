@@ -98,3 +98,8 @@
 ## monitoring-dashboards
 - Learned concepts related to **monitoring-dashboards**
 - Study timestamp: 2026-02-10T08:59:38.331970+00:00
+
+
+## monitoring-slo-sli
+- Learned concepts related to **monitoring-slo-sli**
+- Study timestamp: 2026-02-11T08:54:51.486480+00:00

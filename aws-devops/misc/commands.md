@@ -98,3 +98,8 @@
 ## monitoring-dashboards
 - Example commands for **monitoring-dashboards**
 - (Add real commands here later)
+
+
+## monitoring-slo-sli
+- Example commands for **monitoring-slo-sli**
+- (Add real commands here later)
