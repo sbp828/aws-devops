@@ -103,3 +103,8 @@
 ## monitoring-slo-sli
 - Learned concepts related to **monitoring-slo-sli**
 - Study timestamp: 2026-02-11T08:54:51.486480+00:00
+
+
+## monitoring-tracing
+- Learned concepts related to **monitoring-tracing**
+- Study timestamp: 2026-02-12T08:52:47.503784+00:00

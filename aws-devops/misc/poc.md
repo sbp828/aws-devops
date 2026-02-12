@@ -103,3 +103,8 @@
 ## monitoring-slo-sli
 - Proof of concept ideas for **monitoring-slo-sli**
 - (Scripts / configs later)
+
+
+## monitoring-tracing
+- Proof of concept ideas for **monitoring-tracing**
+- (Scripts / configs later)

@@ -103,3 +103,8 @@
 ## monitoring-slo-sli
 - Example commands for **monitoring-slo-sli**
 - (Add real commands here later)
+
+
+## monitoring-tracing
+- Example commands for **monitoring-tracing**
+- (Add real commands here later)
