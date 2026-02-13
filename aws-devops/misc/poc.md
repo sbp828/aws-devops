@@ -108,3 +108,8 @@
 ## monitoring-tracing
 - Proof of concept ideas for **monitoring-tracing**
 - (Scripts / configs later)
+
+
+## monitoring-logging-best-practices
+- Proof of concept ideas for **monitoring-logging-best-practices**
+- (Scripts / configs later)

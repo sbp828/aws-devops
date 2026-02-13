@@ -108,3 +108,8 @@
 ## monitoring-tracing
 - Example commands for **monitoring-tracing**
 - (Add real commands here later)
+
+
+## monitoring-logging-best-practices
+- Example commands for **monitoring-logging-best-practices**
+- (Add real commands here later)
