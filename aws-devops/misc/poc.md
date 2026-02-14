@@ -113,3 +113,8 @@
 ## monitoring-logging-best-practices
 - Proof of concept ideas for **monitoring-logging-best-practices**
 - (Scripts / configs later)
+
+
+## security-kms
+- Proof of concept ideas for **security-kms**
+- (Scripts / configs later)
