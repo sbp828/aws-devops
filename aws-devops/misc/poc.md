@@ -118,3 +118,8 @@
 ## security-kms
 - Proof of concept ideas for **security-kms**
 - (Scripts / configs later)
+
+
+## security-secrets-manager
+- Proof of concept ideas for **security-secrets-manager**
+- (Scripts / configs later)

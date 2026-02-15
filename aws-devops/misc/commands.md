@@ -118,3 +118,8 @@
 ## security-kms
 - Example commands for **security-kms**
 - (Add real commands here later)
+
+
+## security-secrets-manager
+- Example commands for **security-secrets-manager**
+- (Add real commands here later)
