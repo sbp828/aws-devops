@@ -123,3 +123,8 @@
 ## security-secrets-manager
 - Proof of concept ideas for **security-secrets-manager**
 - (Scripts / configs later)
+
+
+## security-policies
+- Proof of concept ideas for **security-policies**
+- (Scripts / configs later)

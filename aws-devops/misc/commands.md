@@ -123,3 +123,8 @@
 ## security-secrets-manager
 - Example commands for **security-secrets-manager**
 - (Add real commands here later)
+
+
+## security-policies
+- Example commands for **security-policies**
+- (Add real commands here later)
