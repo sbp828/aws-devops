@@ -128,3 +128,8 @@
 ## security-policies
 - Example commands for **security-policies**
 - (Add real commands here later)
+
+
+## security-roles
+- Example commands for **security-roles**
+- (Add real commands here later)

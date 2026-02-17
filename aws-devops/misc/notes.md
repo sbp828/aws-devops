@@ -128,3 +128,8 @@
 ## security-policies
 - Learned concepts related to **security-policies**
 - Study timestamp: 2026-02-16T08:53:46.952031+00:00
+
+
+## security-roles
+- Learned concepts related to **security-roles**
+- Study timestamp: 2026-02-17T08:52:12.796096+00:00
