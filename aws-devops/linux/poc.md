@@ -85,3 +85,8 @@ pkill -f "python3 -m http.server"
 ## Linux Cron Jobs
 - Proof of concept ideas for **Linux Cron Jobs**
 - (Scripts / configs later)
+
+
+## linux-shell-advanced
+- Proof of concept ideas for **linux-shell-advanced**
+- (Scripts / configs later)

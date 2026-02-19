@@ -48,3 +48,8 @@
 ## Linux Cron Jobs
 - Learned concepts related to **Linux Cron Jobs**
 - Study timestamp: 2025-12-15T14:01:34.184849+00:00
+
+
+## linux-shell-advanced
+- Learned concepts related to **linux-shell-advanced**
+- Study timestamp: 2026-02-19T08:50:54.985426+00:00
