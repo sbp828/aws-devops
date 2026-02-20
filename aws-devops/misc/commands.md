@@ -138,3 +138,8 @@
 ## security-mfa
 - Example commands for **security-mfa**
 - (Add real commands here later)
+
+
+## bash-automation
+- Example commands for **bash-automation**
+- (Add real commands here later)

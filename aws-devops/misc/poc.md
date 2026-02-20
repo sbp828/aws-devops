@@ -138,3 +138,8 @@
 ## security-mfa
 - Proof of concept ideas for **security-mfa**
 - (Scripts / configs later)
+
+
+## bash-automation
+- Proof of concept ideas for **bash-automation**
+- (Scripts / configs later)
