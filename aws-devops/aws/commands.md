@@ -98,3 +98,8 @@
 ## aws-efs
 - Example commands for **aws-efs**
 - (Add real commands here later)
+
+
+## aws-ec2-advanced
+- Example commands for **aws-ec2-advanced**
+- (Add real commands here later)

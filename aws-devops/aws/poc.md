@@ -98,3 +98,8 @@
 ## aws-efs
 - Proof of concept ideas for **aws-efs**
 - (Scripts / configs later)
+
+
+## aws-ec2-advanced
+- Proof of concept ideas for **aws-ec2-advanced**
+- (Scripts / configs later)

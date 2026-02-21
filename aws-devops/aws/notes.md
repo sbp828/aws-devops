@@ -98,3 +98,8 @@
 ## aws-efs
 - Learned concepts related to **aws-efs**
 - Study timestamp: 2025-12-26T08:54:58.723998+00:00
+
+
+## aws-ec2-advanced
+- Learned concepts related to **aws-ec2-advanced**
+- Study timestamp: 2026-02-21T08:35:46.366383+00:00
