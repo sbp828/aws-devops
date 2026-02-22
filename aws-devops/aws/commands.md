@@ -103,3 +103,8 @@
 ## aws-ec2-advanced
 - Example commands for **aws-ec2-advanced**
 - (Add real commands here later)
+
+
+## aws-s3-advanced
+- Example commands for **aws-s3-advanced**
+- (Add real commands here later)

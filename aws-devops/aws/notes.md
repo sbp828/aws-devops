@@ -103,3 +103,8 @@
 ## aws-ec2-advanced
 - Learned concepts related to **aws-ec2-advanced**
 - Study timestamp: 2026-02-21T08:35:46.366383+00:00
+
+
+## aws-s3-advanced
+- Learned concepts related to **aws-s3-advanced**
+- Study timestamp: 2026-02-22T08:36:46.385216+00:00
