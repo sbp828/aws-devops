@@ -108,3 +108,8 @@
 ## aws-s3-advanced
 - Proof of concept ideas for **aws-s3-advanced**
 - (Scripts / configs later)
+
+
+## aws-vpc-advanced
+- Proof of concept ideas for **aws-vpc-advanced**
+- (Scripts / configs later)
