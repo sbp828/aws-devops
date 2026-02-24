@@ -113,3 +113,8 @@
 ## aws-vpc-advanced
 - Proof of concept ideas for **aws-vpc-advanced**
 - (Scripts / configs later)
+
+
+## aws-security-iam
+- Proof of concept ideas for **aws-security-iam**
+- (Scripts / configs later)

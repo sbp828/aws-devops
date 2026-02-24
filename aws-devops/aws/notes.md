@@ -113,3 +113,8 @@
 ## aws-vpc-advanced
 - Learned concepts related to **aws-vpc-advanced**
 - Study timestamp: 2026-02-23T08:54:25.035365+00:00
+
+
+## aws-security-iam
+- Learned concepts related to **aws-security-iam**
+- Study timestamp: 2026-02-24T08:53:59.819415+00:00
